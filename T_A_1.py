@@ -1,11 +1,8 @@
 """
-Print First 10 natural numbers using while loop..
+Write a program to find the ASCII value of each character of the stringinpython.
 Date: 21/12/23
 """
-num = 0
-count = 0
-
-while count < 11:
-    print(num)
-    num += 1
-    count += 1
+string = "DELL"
+for char in string:
+    ascii = ord(char)
+    print(char, ascii)
